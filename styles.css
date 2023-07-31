@@ -674,7 +674,7 @@ footer{
   gap:1rem;
 }
 
-@media (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .hero-section-left .hero-section-sub-heading .role{
     font-size: 2.5rem;    
   }
