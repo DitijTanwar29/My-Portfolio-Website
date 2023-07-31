@@ -673,6 +673,124 @@ footer{
   display:flex;
   gap:1rem;
 }
+
+@media (max-width: 500px) {
+  .hero-section-left .hero-section-sub-heading .role{
+    font-size: 2.5rem;    
+  }
+  .hero-section-sub-heading{
+    font-size: 2.5rem;
+    width: 80%;
+  }
+  .project-content{
+    flex-direction: row;
+    gap: 3rem;
+    transform: translateX(-50%);
+  } 
+  .project-skills-container{
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  .project-card:hover .project-skills-container{
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    flex-wrap: wrap;
+  }
+  .project-content{
+    transform: translateX(-8rem);
+    gap: 2rem;
+  }
+  .project-card:hover .project-content{
+    scale: 0.3;
+    transform: translateX(-8rem);
+    /* font-size: 1.5rem; */
+  }
+  .project-content h2{
+    font-size: 2rem;
+  }
+  .project-card:hover .project-content h2{
+    font-size: 2rem;
+  }
+  .project-content p{
+    font-size: 1rem;
+  }
+  .project-card:hover .project-content p{
+    font-size: 1rem;
+  }
+  .btn-grp{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .project-card:hover .btn-grp{
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .btn-project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 4rem;
+  }
+  .project-card:hover .btn-project{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 4rem;
+  }
+  .skills-container {
+    max-width: 80%;
+    padding: 3rem 0;
+  }
+  .skill-heading{
+    font-size: 2.4rem;
+  }
+  .caps{
+    font-size: 4rem;
+  }
+  #contactme{
+    display: flex;
+    align-items: center;
+    max-width:100% ;
+  }
+  #contactme .contactus-heading{
+    width: 80%;
+    font-size: 2.4rem;
+    text-align: center;
+  }
+  .container .contactus-sub-heading{
+    width: 80%;
+    font-size: 1rem;
+  }
+  .contact-headings{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  .formfield-container input{
+    font-size: 1rem;
+  }
+  .formfield-container textarea{
+    font-size: 1rem;
+  }
+  #submit-btn{
+    width:80%;
+    height: 4rem;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+  }
+  #submit-btn i{
+    font-size: medium;
+  }
+  .link-wrapper{
+    text-align: center;
+  }
+}
     @media (max-width:1300px) {
       .logo-container img{
        width: 4rem;
